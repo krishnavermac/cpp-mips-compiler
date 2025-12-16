@@ -1,12 +1,14 @@
 # C++ to MIPS Mini Compiler
 
-This project is a simple **C++-like expression compiler** that translates basic arithmetic expressions into **MIPS assembly code**.  
+This project is a simple **C++-like expression compiler** that translates basic arithmetic expressions into **MIPS assembly code**. 
+
 
 It demonstrates how a compiler front-end works, including:
 - Tokenizing input
 - Parsing expressions
 - Generating stack-based MIPS assembly
 - Producing a final `.s` file that can run in QtSPIM or MARS
+
 
 ## 🚀 Features
 - Supports integer expressions such as:
@@ -18,13 +20,19 @@ It demonstrates how a compiler front-end works, including:
 - Stack-based MIPS code generation
 - Outputs a complete `.s` file you can run in QtSPIM
 
+
 ## 📂 Project Structure
 
 cpp-mips-compiler/
+
 │
+
 ├── main.cpp # Compiler source code
+
 ├── out.s # Generated MIPS assembly output
+
 └── README.md # Documentation
+
 
 ## 🛠️ How to Build
 
@@ -88,23 +96,7 @@ Assembly generation
 
 It is NOT a full C++ compiler, but a teaching tool.
 
-📄 License
-MIT License — free to use and modify.
 
 👤 Author
 Krishna Verma (krishnavermac)
 GitHub: https://github.com/krishnavermac
-
-yaml
-Copy code
-
----
-
-If you want, I can also:
-
-✅ Generate a badge-style header  
-✅ Add screenshots  
-✅ Add sample test cases  
-✅ Make a more advanced version with subtraction, division, parentheses, etc.
-
-Just tell me!
